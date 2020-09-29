@@ -1,0 +1,3 @@
+[industry_hero_slide]
+
+copy and paste where you want to setup the slider

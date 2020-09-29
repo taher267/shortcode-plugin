@@ -1,0 +1,29 @@
+////Sectin Titpe  Start
+function industry_section_title_scode($atts){
+extract( shortcode_atts(array(
+		'sub_title' => '',
+		'title' => '',
+		'description' =>'',
+	), $atts));
+
+$industry_sec_title_markup='<div class="industry_section_title">';
+if (!empty($sub_title)) {
+	$industry_sec_title_markup.='<h4>'.esc_html($sub_title).'</h4>';
+}
+if (!empty($title)) {
+	$industry_sec_title_markup.='<h2>'.esc_html($title).'</h2>';
+}if (!empty($description)) {
+	$industry_sec_title_markup.=wpautop(esc_html($description));
+}
+	return $industry_sec_title_markup;
+
+}
+
+add_shortcode( 'industry_post_box', 'industry_section_title_scode');
+//Sectin Titpe End
+
+
+
+//output
+
+[industry_post_box sub_title="never test it if you are not sure" title="we provide quality services" description="Sifting through teaspoons of clay and sand scraped from the floors of caves, German researchers have managed to isolate ancient human DNA--without turning up a single bone. Their new technique, described in a study published on Thursday in the journal Science."]

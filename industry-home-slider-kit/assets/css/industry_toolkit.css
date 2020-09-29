@@ -1,0 +1,205 @@
+.indistry_sect_title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.indistry_sect_title h4 {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.indistry_sect_title h2 {
+    font-size: 36px;
+    margin-bottom: 38px;
+}
+
+.indistry_sect_title p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.indistry_service_boxes {
+    text-align: center;
+}
+
+.service_icon {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    overflow: hidden;
+}
+
+.service_icon .fa,.service_icon img {
+    max-width: 100%;
+    font-size: 56px;
+    color: #f4cb10;
+    border-radius: 5px;
+}
+
+.indistry_service_boxes h2 {
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+.indistry_service_boxes p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+.our_services .indistry_service_boxes {
+    background: #fff !important;
+    padding: 10px;
+    border-radius: 4px;
+}
+.our_services .service_icon {
+    width: 100%;
+    height: auto;
+}
+.our_services .service_icon img {
+   width: 100%;
+}
+.industry_single_slide {
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-color: #ddd;
+    height: 640px;
+    display: table;
+    position: relative;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 300;
+}
+.industry_single_slide_inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.industry_slides h2 {
+    font-size: 36px;
+    line-height: 1.3;
+    margin-bottom:30px
+}
+
+.industry_slides .owl-nav button {
+    position: absolute;
+    top: 50%;
+    left:35px;
+    line-height: 60px;
+    display: block;
+
+}
+.industry_slides .owl-nav button i.fa{
+	font-size: 40px;color: #d3d3d3;
+	font-weight: 300;
+}.industry_slides .owl-nav button:hover{
+	background: none !important;
+}
+.industry_slides .owl-nav button.owl-next{
+	left:auto;
+	right: 35px;
+}
+.industry_slides .owl-dots {
+    position: absolute;
+    bottom: 17px;
+    left: 5%;
+}
+.industry_slides .owl-dots button span{
+	background: #a3a3a2 !important;
+	height: 5px !important;width:48px !important;
+}
+.industry_slides .owl-dots button.active span{
+	background: #f0c810 !important;
+}
+.cta_text h3 {
+    max-width: 810px;
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+.cta_text h3 strong {
+    color: #f4cb10;
+}
+
+.kc-testimo .content-desc {
+    background: #f8f9fc;
+    padding: 40px 20px 40px 40px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #333;
+    border: 1px solid #dedede;
+    position: relative;
+    z-index: 2;
+     margin-bottom: 30px;
+}
+
+.kc-testimo .content-desc::before {
+    position: absolute;
+    content: "\f10d";
+    font-family: fontawesome;
+    color: #e1e2e5;
+    top: 27px;
+    left: 33px;
+}
+.kc-testimo .content-desc::after{
+    position: absolute;
+    content: "";
+    border-top: 30px solid transparent;
+    border-right:30px solid transparent;
+    border-left: 30px solid #f8f9fc;
+    left: 40px;
+    bottom: -4px;
+    transform: rotate(-45deg);
+    z-index: -1;
+
+}
+.kc-testimo .content-title {
+    text-transform: none;
+}
+
+.kc-testimo .content-position {
+    color: #222;
+}
+.ui-tabs .kc_tabs_nav~.kc_tab.ui-tabs-body-active{
+	background:transparent !important;
+}
+.ui-tabs ul.kc_tabs_nav li a {
+    background: transparent;
+}
+.ui-tabs .kc_tabs_nav>.ui-tabs-active>a{
+    background-color: #f3f3f3;
+}
+.kc-col-container .kc_tabs>.kc_wrapper>.kc_tabs_nav{
+	background: transparent;
+}
+
+div.ui-tabs .kc_tabs_nav>li {
+    border: 1px solid #dfdfdf;
+}
+
+.kc_tabs_nav~.kc_tab .kc_tab_content {
+    /*background: red;*/
+    overflow: hidden;
+    border:1px solid #dfdfdf;
+}
+.kc_tabs_nav~.kc_tab .kc_tab_content .kc_text_block{
+      font-size: 14px;
+    color: #666;
+    font-weight: 300;
+}
+.ui-tabs>.kc_tabs_nav>li:first-child {
+    border-left: 1px solid #dfdfdf !important;
+}
+
+.ui-tabs .kc_tabs_nav>li>a{
+    padding: 0 25px;
+    font-weight: 600;
+}

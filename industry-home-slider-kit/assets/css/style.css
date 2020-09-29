@@ -1,0 +1,15 @@
+.industry_single_slide {
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-color: #ddd;
+    height: 640px;
+    display: table;
+    position: relative;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 300;
+}
+.industry_single_slide_inner{
+	display: table-cell;vertical-align: middle;
+}

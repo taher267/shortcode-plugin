@@ -5,4 +5,4 @@ copy and paste where you want to setup the slider
 
 or 
 
-[jaza_industry_slider  autoplay="false" autoplayTimeout="5000" dots="false" nav="false" loop="false" items="3"]
+[jaza_industry_slider  autoplay="false" autoplayTimeout="5000" dots="false" nav="false" loop="false" items="1"]
